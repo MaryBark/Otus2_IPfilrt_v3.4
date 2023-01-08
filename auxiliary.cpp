@@ -27,7 +27,8 @@ std::vector<std::string> split(const std::string& str, char d)
     return r;
 }
 
-void read_lines(std::istream& stream, func_str fn_line_handler) {
-    for (std::string line; std::getline(stream, line);)
-        fn_line_handler(line);
+void read_lines(std::istream& stream, func_str fn_line_handler) 
+{
+//     for (std::string line; std::getline(stream, line);)
+//         fn_line_handler(line);
 }
