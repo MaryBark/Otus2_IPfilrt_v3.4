@@ -134,8 +134,7 @@ public:
     using ip_pool = ip_pool_arlist<T>;
 #endif
 
-//////////////////////////////////////
-//// Utils
+
 void read_lines(std::istream& stream, func_str fn_line_handler);
 
 // ("",  '.') -> [""]
