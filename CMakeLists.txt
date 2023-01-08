@@ -9,7 +9,7 @@
 
 cmake_minimum_required(VERSION 3.2)
 
-project(ip_filrt_otus2 VERSION 0.0 ${PATCH_VERSION})
+project(ip_filrt_otus2 VERSION 0.0.${PATCH_VERSION})
 
 configure_file(version.h.in version.h)
 
