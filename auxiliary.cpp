@@ -7,7 +7,6 @@
 #include <string>
 
 
-//// Utils
 std::vector<std::string> split(const std::string& str, char d)
 {
     std::vector<std::string> r;
@@ -29,6 +28,6 @@ std::vector<std::string> split(const std::string& str, char d)
 
 void read_lines(std::istream& stream, func_str fn_line_handler) 
 {
-//     for (std::string line; std::getline(stream, line);)
-//         fn_line_handler(line);
+    for (std::string line; std::getline(stream, line);)
+        fn_line_handler(line);
 }
