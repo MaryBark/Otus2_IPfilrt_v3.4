@@ -5,8 +5,8 @@
 
 #include <vector>
 #include <functional>
-#include <string.h>
-#include <iostream.h>
+#include <string>
+
 
 
 using func_str = std::function<void(std::string)>;
